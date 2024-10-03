@@ -1,0 +1,39 @@
+/* Blurring the default state of all p elements that live within an immersive sidecar */
+div.immersive-narrative-panel p {
+    filter: blur(5px);
+    transition: 1s ease-in-out;
+}
+
+/* Adds pseudo hint text atop p elements within immersive-narrative-panel text-viewer elements */
+div.immersive-narrative-panel div.text-viewer:has(> p)::before {
+    content: "Need a hint?";
+    color: #dceadb;
+    font-weight: bold;
+    font-size: 300%;
+    font-style: italic;
+    text-shadow: 3px 3px #000000;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: 1s ease-in-out;
+  }
+
+/* Unblur the p elements upon hover */
+div.immersive-narrative-panel p:hover {
+    filter: blur(0px);
+}
+
+/* Hide the pseudo hint text on hover */
+div.immersive-narrative-panel div.text-viewer:hover::before {
+    opacity : 0;
+}
+
+/* Modify the active state of a button to be more obvious */
+div.immersive-narrative-panel button.active {
+    background-color: #4B2813;
+}

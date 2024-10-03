@@ -1,0 +1,13 @@
+div.card-bottom button.labeled-button {
+    background-color:blue;
+    color:aqua;
+    border-radius: 0%;
+    clip-path: polygon(var(--btn-raise) 0%, calc(100% - var(--btn-raise)) 0%, 100% 50%, calc(100% - var(--btn-raise)) 100%, var(--btn-raise) 100%, 0 50%);
+}
+
+
+div.card-bottom button.labeled-button:after {
+    position:absolute; left:-2px; top:-2px; content:'';
+    border-top: 25px solid white;
+    border-right: 25px solid transparent;
+}

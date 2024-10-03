@@ -1,0 +1,52 @@
+/* Configure the initial position of the wave effect within links */
+a {
+  background: transparent;
+  background-size: 100px;
+  background-image: url('wave.svg');
+  background-repeat: repeat-x;
+  background-position: 0 -100%;
+  transition: 1.25s ease-in-out;
+}
+
+/* Translate the location of the wave image on hover */
+a:hover {
+  background-position: 50% 100%;
+}
+
+/* Configure the initial position of the wave effect within embed cards */
+.embed-card {
+  background: transparent;
+  background-size: 500px;
+  background-image: url('wave_transparent.svg');
+  background-repeat: repeat-x;
+  background-position: 0 -200%;
+  transition: 1s ease-in-out;
+}
+
+/* Translate the location of the wave image on hover */
+.embed-card:hover {
+  background-position: 50% 100%;
+}
+
+/*  Bump the description text colour to improve contrast */
+.embed-card p.description:hover {
+  color: white
+}
+
+/* Background wave animation within blockquotes */
+blockquote {
+  background-size: 50%;
+  background-image: url('wave_transparent.svg');
+  background-repeat: repeat-x;
+  background-position-x: 0;
+  animation-name: waves;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/* Set the keyframes for the blockquote wave animation */
+@keyframes waves {
+  from {background-position-x: 0;}
+  to {background-position-x: 100%;}
+}

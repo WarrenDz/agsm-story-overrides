@@ -1,5 +1,5 @@
 /* Replace cover title font and image cutout */
-.sc-title {
+h1.sc-title {
     font-family: "Six Caps", sans-serif;
     font-size: 2750%;
     font-weight: 800;
