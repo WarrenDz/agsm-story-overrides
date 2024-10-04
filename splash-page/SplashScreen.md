@@ -1,31 +1,64 @@
-# Splash Screen
->Summarize what this sample does and **what problem is solves for the user**. For example, introduce the sample in the context of a user story. One paragraph is probably enough.
+# Splash screen
+You may want to greet readers or preface the story they're about to read. A splash screen can perform this role and sit atop your story until dismissed.
+
+## Live example
+
+[![Splash screen sample codepen](./assets/sample_splash_screen.jpg "Splash screen sample codepen")](https://codepen.io/Warren-Davison/pen/abeNewB)
+
 
 ## Usage instructions
->Provide instructions as to how the author can implement this example. Use the snippet sections below to highlight modifications to the example files.
+Implementing a splash screen involves:
+- Creating a `<div class="splash-overlay">` in the **html page** that obscures the main content of the page.
+- Creating a `<div class="splash-screen">` in the **html page** that contains the text and button that will greet your readers.
+- Define a `closeSplashScreen()` function in the **html page**, called by the button that hides the `.splash-overlay`.
+- Define the appearance of the `.splash-overlay` and `.splash-screen` classes in the **css file**.
+- Prevent the main content of the page from scrolling until **the splash screen is dismissed** by adding `overflow: hidden` to the **css** of the `<body class="no-scroll">`.
 
-### HTML snippet
-> Use only if needed. Include a snippet of the business end of the HTML and direct users where to make modifications.
-
+### HTML snippets
+**Prevent the story from scrolling**: This prevents the story from scrolling when the splash screen is active.
 ```
-// Your code here (comments are allowed)
-```
-
-### CSS snippet
-> Use only if needed. Include a snippet of the business end of the CSS file and direct users where to make modifications.
-
-```
-// Your code here (comments are allowed)
+<!-- Prevent the story from scrolling-->
+<body class="no-scroll">
 ```
 
-### Javascript snippet
-> Use only if needed. Include a snippet of the business end of the javascript file and direct users where to make modifications.
-
+**Splash screen and overlay**: These elements make up the `splash screen` that contains the greeting and a `splash-overlay` that obscures the story underneath.
 ```
-// Your code here (comments are allowed)
+<!-- Splash overlay -->
+<div class="splash-overlay" id="splashOverlay">
+<!-- Splash screen -->
+<div class="splash-screen">
+    <img src="rex_skull.svg" height="50-px" alt="T-Rex Fossil">
+    <h1>Welcome to Our Dino Dig!</h1>
+    <p>Since dinosaurs have been extinct for millions of years, we’ll become paleontologists to excavate the fossilized remains of these prehistoric giants.</p>
+    <p>Are you ready to get your hands dirty?</p>
+    <button onclick="closeSplashScreen()">Yeah, I can dig it!</button>
+</div>
+</div>
 ```
 
-## Example output
->Describe the result, and include a description of the result (screenshot or GIF).
+**Dismissing the splash screen**: This defines a `closeSplashScreen()` function that is called by the button within the `<div class="splash-screen">` that:
+- Hides the `<div class="splash-screen">` and all of its contents by setting `display = 'none'`.
+- Enables scrolling by removing the `no-scroll` class from the `<body>`.
+```
+  <script>
+    // Function to close the splash screen and reveal the story
+    function closeSplashScreen() {
+      // Hide the splash screen
+      document.getElementById('splashOverlay').style.display = 'none';
 
-![An old rock in the desert](./images/sample_splash_screen.jpg)
+      // Enable scrolling on the main page
+      document.body.classList.remove('no-scroll');
+    }
+  </script>
+```
+
+### CSS customizations
+Aside from the styling of the `splash-overlay` and `splash-screen` elements, the most important part of the css is preventing the story from scrolling while the splash screen is active.
+
+This is achieved using the `.no-scroll` class and setting the `overflow: hidden`.
+```
+body.no-scroll {
+  overflow: hidden; /* Prevent the story scrolling while splash screen in place */
+  background-color: #a25d35; /* Background color while the embedded story loads */
+}
+```

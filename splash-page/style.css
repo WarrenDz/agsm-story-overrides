@@ -1,5 +1,5 @@
 body.no-scroll {
-  overflow: hidden; /* Prevent the story scrolling whil splash screen in place */
+  overflow: hidden; /* Prevent the story scrolling while splash screen in place */
   background-color: #a25d35; /* Background color while the embedded story loads */
 }
 /* Splash screen overlay */
@@ -15,6 +15,7 @@ body.no-scroll {
   align-items: center;
   z-index: 1000;
 }
+
 .splash-overlay .splash-screen {
   text-align: center;
   background-color: #a25d35;
@@ -24,30 +25,32 @@ body.no-scroll {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 .splash-overlay .splash-screen h1 {
   font-family: "Sigmar One";
   color: #ffd38e;
-  font-size: 3em;
+  font-size: 4em;
   margin-bottom: 10px;
 }
 
 .splash-overlay .splash-screen p {
   font-family: "Sigmar";
   color: #fff8e9;
-  font-size: 1.5em;
+  font-size: 2em;
   margin-bottom: 20px;
 }
 
 .splash-overlay .splash-screen button {
   font-family: "Sigmar One";
   padding: 10px 20px;
-  font-size: 1.5em;
+  font-size: 2em;
   color: #fff8e9;
   background-color: #55290c;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
+
 .splash-overlay .splash-screen button:hover {
   background-color: #3a1c08;
 }
