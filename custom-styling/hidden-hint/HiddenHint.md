@@ -1,7 +1,7 @@
 # Hidden hints
 >Summarize what this sample does and **what problem is solves for the user**. For example, introduce the sample in the context of a user story. One paragraph is probably enough.
 
-## Example
+## Live sample
 >Use only if the sample can be implemented in a codepen.
 
 ## Usage instructions
