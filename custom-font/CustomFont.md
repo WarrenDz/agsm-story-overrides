@@ -12,13 +12,13 @@ In order to implement custom fonts for your story, you'll need to:
 
 ### CSS customizations
 **Loading fonts from font delivery service**: If using a typeface from a font delivery service, you'll need to reference the font in the `<head>` of our HTML.
-```
+```html
 <!-- Reference Google Fonts and CSS -->
 <link href="https://fonts.googleapis.com/css2?family=Sigmar&family=Sigmar+One&display=swap" rel="stylesheet">
 ```
 
 **Referencing self-hosted font files**: If using self-hosted fonts, these will be referenced in your CSS file as a `@font-face` and their `src` with be a relative url to the file location on your web server.
-```
+```css
 /* Reference self-hosted font files */
 @font-face {
     font-family: 'Permanent-Marker';

@@ -8,23 +8,23 @@
 ## Usage instructions
 >Provide instructions as to how the author can implement this example. Use the snippet sections below to highlight modifications to the example files.
 
-### CSS customizations
+### HTML customizations
 > Use only if needed. Include a snippet of the business end of the HTML and direct users where to make modifications.
 
-```
+```html
 // Your code here (comments are allowed)
 ```
 
 ### CSS customizations
 > Use only if needed. Include a snippet of the business end of the CSS file and direct users where to make modifications.
 
-```
+```css
 // Your code here (comments are allowed)
 ```
 
 ### Javascript customizations
 > Use only if needed. Include a snippet of the business end of the javascript file and direct users where to make modifications.
 
-```
+```js
 // Your code here (comments are allowed)
 ```
