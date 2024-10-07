@@ -7,6 +7,7 @@ h1.sc-title {
     text-transform: uppercase;
     text-align: center;
     color: #DDD3D9;
+    /* This sets the background image and clips it to the text characters */
     background: url(https://cdn.arcgis.com/sharing/rest/content/items/e857e2e8b0f34597999077a04dba4350/resources/C1VCMdFCo1WDwDyUI1NX0.jpeg) no-repeat;
     background-position: 50% 50%;
     background-size: cover;

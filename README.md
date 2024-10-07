@@ -8,6 +8,7 @@ Requirements...? Clarify with Dev Team.
 
 ### Embedding a story
 Here's what to do...
+
 ```
   <!-- Embedded story -->
   <div class="storymaps-root"></div>
@@ -21,15 +22,17 @@ Here's what to do...
 
 ## Sample structure
 Each sample folder within this repository demonstrates a specific use case and contains:
-- **HTM**L index.html file 
-- **CSS** 
-- **Javascript (optional)**
+- **HTML** index.html file that acts as the main webpage with a script-embed of an ArcGIS StoryMap story.
+- **CSS**  style.css file containing rules for overriding the styling of elements within a story.
+- **Javascript (optional)** javascript.js file containing code to manipulate content of the webpage.
 - **README** A read me document that outlines the use case for the sample, how to implement it, and a link to a codepen (if applicable).
 
 ## Sample use cases
+Here are some ways you can customize your script-embedded stories.
+
 - **[Header and footers]()** Wrap your story in your own header and footer.
 
-- **[Custom domain](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-domain/CustomDomain.md)**
+- **[Custom domain](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-domain/CustomDomain.md)** Host your story on your own domain so you control the url.
 
 - **[Analytics integration](https://github.com/WarrenDz/agsm-story-overrides/blob/master/analytics/Analytics.md)** Implement your own analytics integration from X, Y, Z.
 
@@ -39,8 +42,9 @@ Each sample folder within this repository demonstrates a specific use case and c
 
 - **[Custom styling](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/CustomStyling.md)** A collection of creative samples that apply custom styling to embedded stories including:
     - **Line height**
-    - **Custom covers**
-    - **Hover animations**
+    - **[Custom covers](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/CustomCover.md)**
+    - **[Hover animations]((https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/HoverAnimation.md))**
 
 ## Resources
-
+- Likely a blog post here...
+- Probably a link to some doc here...
