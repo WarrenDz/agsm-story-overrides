@@ -10,14 +10,14 @@
 ### HTML snippet
 > Use only if needed. Include a snippet of the business end of the HTML and direct users where to make modifications.
 
-```
+```html
 // Your code here (comments are allowed)
 ```
 
 ### CSS snippet
 > Use only if needed. Include a snippet of the business end of the CSS file and direct users where to make modifications.
 
-```
+```css
 // Your code here (comments are allowed)
 ```
 

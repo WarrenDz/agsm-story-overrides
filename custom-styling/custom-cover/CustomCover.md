@@ -16,7 +16,7 @@ In this example, implementing a custom cover involves:
 
 ### HTML snippet
 **Reference Google Font**: This references an additional typeface from Google Fonts.
-```
+```html
 <!-- Reference Google Font: Six Caps -->
 <link href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" rel="stylesheet">
 ```
@@ -24,7 +24,7 @@ In this example, implementing a custom cover involves:
 ### CSS snippet
 **Style the title**: This selects the story title using `h1.sc-title` and replaces the font with the `Six Caps` imported from Google Fonts. In addition, the size, weight, and case are customized.
 
-```
+```css
 /* Replace cover title font and image cutout */
 h1.sc-title {
     font-family: "Six Caps", sans-serif;
@@ -37,7 +37,7 @@ h1.sc-title {
 ...
 ```
 **Using a background image in the title**: This references the same image from the cover and places it as a `background` within the title text. Using the `webkit-background-clip` the image is clipped to the text characters.
-```
+```css
 ...
     /* This sets the background image and clips it to the text characters */
     background: url(https://cdn.arcgis.com/sharing/rest/content/items/e857e2e8b0f34597999077a04dba4350/resources/C1VCMdFCo1WDwDyUI1NX0.jpeg) no-repeat;
@@ -48,7 +48,7 @@ h1.sc-title {
   }
 ```
 **Fade the back main background image**: To enhance the effect, the background image container of the cover is given a background to match the story `#0F1116` and the opacity of the element is reduced to `20%` to make it less prominent than the title text.
-```
+```css
 /* Knock back the visibility of the cover image */
 div.media-panel.background img {
   color: #0F1116;

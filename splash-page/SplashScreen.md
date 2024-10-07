@@ -15,13 +15,13 @@ Implementing a splash screen involves:
 
 ### HTML snippets
 **Prevent the story from scrolling**: This prevents the story from scrolling when the splash screen is active.
-```
+```html
 <!-- Prevent the story from scrolling-->
 <body class="no-scroll">
 ```
 
 **Splash screen and overlay**: These elements make up the `splash screen` that contains the greeting and a `splash-overlay` that obscures the story underneath.
-```
+```html
 <!-- Splash overlay -->
 <div class="splash-overlay" id="splashOverlay">
 <!-- Splash screen -->
@@ -38,7 +38,7 @@ Implementing a splash screen involves:
 **Dismissing the splash screen**: This defines a `closeSplashScreen()` function that is called by the button within the `<div class="splash-screen">` that:
 - Hides the `<div class="splash-screen">` and all of its contents by setting `display = 'none'`.
 - Enables scrolling by removing the `no-scroll` class from the `<body>`.
-```
+```html
   <script>
     // Function to close the splash screen and reveal the story
     function closeSplashScreen() {
@@ -55,7 +55,7 @@ Implementing a splash screen involves:
 Aside from the styling of the `splash-overlay` and `splash-screen` elements, the most important part of the CSS is preventing the story from scrolling while the splash screen is active.
 
 This is achieved using the `.no-scroll` class and setting the `overflow: hidden`.
-```
+```css
 body.no-scroll {
   overflow: hidden; /* Prevent the story scrolling while splash screen in place */
   background-color: #a25d35; /* Background color while the embedded story loads */
