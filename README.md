@@ -30,7 +30,7 @@ Each sample folder within this repository demonstrates a specific use case and c
 ## Sample use cases
 Here are some ways you can customize your script-embedded stories.
 
-- **[Header and footers]()** Wrap your story in your own header and footer.
+- **[Header and footers](https://github.com/WarrenDz/agsm-story-overrides/blob/master/header-footer/HeaderFooter.md)** Wrap your story in your own header and footer.
 
 - **[Custom domain](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-domain/CustomDomain.md)** Host your story on your own domain so you control the url.
 
@@ -41,9 +41,9 @@ Here are some ways you can customize your script-embedded stories.
 - **[Custom font](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-font/CustomFont.md)** Replace fonts in your story with self-hosted fonts so that your story can align to your corporate style guides.
 
 - **[Custom styling](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/CustomStyling.md)** A collection of creative samples that apply custom styling to embedded stories including:
-    - **Line height**
-    - **[Custom covers](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/CustomCover.md)**
-    - **[Hover animations]((https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/HoverAnimation.md))**
+    - **[Line height](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/line-height/LineHeight.md)**
+    - **[Custom covers](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/custom-cover/CustomCover.md)**
+    - **[Hover animations](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/hover-animation/HoverAnimation.md)**
 
 ## Resources
 - Likely a blog post here...
