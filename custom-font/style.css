@@ -24,3 +24,6 @@ p {
     font-family: "Kalam" !important;
 }
 
+body {
+    margin: 0;
+  }

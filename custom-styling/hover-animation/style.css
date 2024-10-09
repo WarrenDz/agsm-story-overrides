@@ -50,3 +50,7 @@ blockquote {
   from {background-position-x: 0;}
   to {background-position-x: 100%;}
 }
+
+body {
+  margin: 0;
+}

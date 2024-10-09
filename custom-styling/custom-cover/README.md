@@ -1,5 +1,5 @@
 # Customized cover
-Customizing the cover of your story is one way to make it stand out. When a story is embedded using a script-embed, additional styling can be implemented using CSS. While there are many ways a cover, and the story itself, can be customized this example demonstrates how:
+Customizing the cover of your story is one way to make it stand out. When a story is embedded using a script-embed, additional styling can be implemented using CSS. While there are many ways to customize a story and its cover, this small sample demonstrates how:
 - The title font can be customized
 - The cover image can be manipulated within the title text.
 - The larger media panel of the cover can be modified.

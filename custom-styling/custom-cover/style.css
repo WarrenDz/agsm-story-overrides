@@ -20,3 +20,7 @@ div.media-panel.background img {
   color: #0F1116;
   opacity: 0.2;
 }
+
+body {
+  margin: 0;
+}

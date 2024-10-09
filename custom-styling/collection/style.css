@@ -11,3 +11,7 @@ div.card-bottom button.labeled-button:after {
     border-top: 25px solid white;
     border-right: 25px solid transparent;
 }
+
+body {
+    margin: 0;
+  }
