@@ -37,3 +37,7 @@ div.immersive-narrative-panel div.text-viewer:hover::before {
 div.immersive-narrative-panel button.active {
     background-color: #4B2813;
 }
+
+body {
+    margin: 0;
+  }

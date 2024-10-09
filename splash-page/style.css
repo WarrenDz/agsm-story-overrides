@@ -54,3 +54,7 @@ body.no-scroll {
 .splash-overlay .splash-screen button:hover {
   background-color: #3a1c08;
 }
+
+body {
+  margin: 0;
+}
