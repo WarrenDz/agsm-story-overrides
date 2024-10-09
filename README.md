@@ -2,9 +2,9 @@
 This repository is intended for sharing samples of script-embedded ArcGIS StoryMaps stories. Embedding stories using a script-embed is a developer-friendly pathway for customizing your stories and implementing custom functionality.
 
 ## Usage instructions
-Requirements...? Clarify with Dev Team.
-- index.html file
-- website
+In order to embed stories in your website using this workflow, you'll need:
+- `index.html` file
+- priviledges that allow the addition of custom `<script>` tags
 
 ### Embedding a story
 Here's what to do...
@@ -41,9 +41,10 @@ Here are some ways you can customize your script-embedded stories.
 - **[Custom font](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-font)** Replace fonts in your story with self-hosted fonts so that your story can align to your corporate style guides.
 
 - **[Custom styling](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling)** A collection of creative samples that apply custom styling to embedded stories including:
-    - **[Line height](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/line-height)**
-    - **[Custom covers](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/custom-cover)**
-    - **[Hover animations](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/hover-animation)**
+    - **[Line height](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/line-height)** Override the line height of text within your story to suit your font.
+    - **[Custom covers](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/custom-cover)** Customize the appearance of your story cover.
+    - **[Hover animations](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/hover-animation)** Configure custom animations on elements within your story when a user hovers.
+    - **[Hidden hints](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/hidden-hints)** Add intrigue with hint text to scavenger hint or quiz-style stories using pseudo elements and hover transitions.
 
 ## Resources
 - Likely a blog post here...
