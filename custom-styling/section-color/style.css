@@ -1,0 +1,25 @@
+/* Change background color of these 'blocks' */
+[data-blockid='n-zbWCKc'],
+[data-blockid='n-6rlGTg'],
+[data-blockid='n-7pYzAa'],
+[data-blockid='n-zO1bzx'] {
+    background-color: #F2B940 !important;
+    position: relative;
+    border-color: #F2B940;
+    border-style: solid;
+    border-width: 16px;
+    margin: 0 !important;
+}
+
+/* Change text color in these 'blocks' */
+[data-blockid='n-zbWCKc'] p,
+[data-blockid='n-6rlGTg'] p,
+[data-blockid='n-7pYzAa'] p,
+[data-blockid='n-zO1bzx'] p {
+    color: #1F2429 !important;
+}
+
+body {
+    margin: 0;
+    /* background-image: linear-gradient(red, yellow); */
+  }

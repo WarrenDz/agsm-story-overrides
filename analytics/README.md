@@ -1,30 +1,30 @@
 # Analytics
->Summarize what this sample does and **what problem is solves for the user**. For example, introduce the sample in the context of a user story. One paragraph is probably enough.
-
-## Live sample
->Use only if the sample can be implemented in a codepen.
-[![<sample name>](<path to image> "<sample name>")](<link to codepen>)
+This sample demonstrates how to implement several analytics providers within your site to track metrics associated with website traffic.
 
 ## Usage instructions
->Provide instructions as to how the author can implement this example. Use the snippet sections below to highlight modifications to the example files.
+To implement analytics for your script-embedded stories you'll need:
+
+- Credentials for an analytics tracking platform
 
 ### HTML customizations
-> Use only if needed. Include a snippet of the business end of the HTML and direct users where to make modifications.
+Configuring these analytics platforms typically involves placing some script within the `<head>` of your webpage.
 
-```
-// Your code here (comments are allowed)
-```
+```html
+<!-- Google Analytics Code -->
+<!-- Replace {TAG_ID} -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id={TAG_ID}"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
 
-### CSS customizations
-> Use only if needed. Include a snippet of the business end of the CSS file and direct users where to make modifications.
-
-```
-// Your code here (comments are allowed)
-```
-
-### Javascript customizations
-> Use only if needed. Include a snippet of the business end of the javascript file and direct users where to make modifications.
-
-```
-// Your code here (comments are allowed)
+  // Add TAG_ID here
+  gtag("config", "{TAG_ID}");
+</script>
+<!-- END Google Analytics Code-->
 ```

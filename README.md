@@ -45,6 +45,8 @@ Here are some ways you can customize your script-embedded stories.
     - **[Custom covers](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/custom-cover)** Customize the appearance of your story cover.
     - **[Hover animations](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/hover-animation)** Configure custom animations on elements within your story when a user hovers.
     - **[Hidden hints](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/hidden-hints)** Add intrigue with hint text to scavenger hint or quiz-style stories using pseudo elements and hover transitions.
+    - **[Selective section background color](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/section-color)** Selectively re-color the background of sections within your story.
+    - **[Image drop shadow](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/img-shadow)** Apply a subtle dropshadow to images within throughout your story.
 
 ## Resources
 - Likely a blog post here...
