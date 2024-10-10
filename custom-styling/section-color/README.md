@@ -2,7 +2,7 @@
 Selectively styling the background color for elements within your story can emphasize sections and draw readers attention or to visually separate sections of a story.
 
 ## Live sample
-[![Sample selective section color](./assets/sample_section_color.jpg "Sample selective section color")](https://codepen.io/Warren-Davison/pen/vYoyzzm)
+[![Sample selective section color](./assets/sample_section_color.jpg "Sample selective section color")](https://codepen.io/Warren-Davison/pen/vYoyzzm)*[Click to see the live codepen](https://codepen.io/Warren-Davison/pen/vYoyzzm)*
 
 ## Usage instructions
 In order to selectively color the background of sections of your story, you'll need to:

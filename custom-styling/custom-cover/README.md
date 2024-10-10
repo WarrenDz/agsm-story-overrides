@@ -5,7 +5,7 @@ Customizing the cover of your story is one way to make it stand out. When a stor
 - The larger media panel of the cover can be modified.
 
 ## Live sample
-[![Custom cover sample codepen](./assets/sample_custom_cover.jpg "Custom cover sample codepen")](https://codepen.io/Warren-Davison/pen/MWNegKp)
+[![Custom cover sample codepen](./assets/sample_custom_cover.jpg "Custom cover sample codepen")](https://codepen.io/Warren-Davison/pen/MWNegKp)*[Click to see the live codepen](https://codepen.io/Warren-Davison/pen/MWNegKp)*
 
 ## Usage instructions
 In this example, implementing a custom cover involves:

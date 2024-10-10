@@ -4,7 +4,7 @@ Adding a drop shadow to standalone graphics in your story can help them stand ou
 The shadow will only be created around **non-transparent pixels** within the image so PNGs work well with this effect.
 
 ## Live sample
-[![Image shadow sample codepen](./assets/sample_image_shadow.jpg "Image shadow sample codepen")](https://codepen.io/Warren-Davison/pen/RwXoYJV)
+[![Image shadow sample codepen](./assets/sample_image_shadow.jpg "Image shadow sample codepen")](https://codepen.io/Warren-Davison/pen/RwXoYJV)*[Click to see the live codepen](https://codepen.io/Warren-Davison/pen/RwXoYJV)*
 
 ## Usage instructions
 Implementing drop shadows for your images involves:
