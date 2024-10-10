@@ -3,8 +3,7 @@ This sample demonstrates how to reference a self-hosted font file and replace th
 
 This is useful when you want the typefaces of your story to conform to the style guide and fonts used by your organization that may not be available by default in the ArcGIS StoryMaps builder.
 
-<!-- ## Live sample
-[![Custom font sample codepen](./assets/sample_custom_font.jpg "Custom font sample codepen")](https://codepen.io/Warren-Davison/pen/poMEJpE) -->
+>**Note:** See [this sample](../custom-styling/custom-cover/README.md#CSS-snippet) for an example of referencing a font from a font delivery service (Google Fonts/Adobe Fonts)
 
 ## Usage instructions
 In order to implement custom fonts for your story, you'll need to:

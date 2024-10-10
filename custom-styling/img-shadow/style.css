@@ -1,0 +1,5 @@
+/* Image drop shadow */
+img:not(.media-panel.background img) {
+    -webkit-filter: drop-shadow(5px 5px 5px #222) !important;
+    filter: drop-shadow(5px 5px 5px #222) !important;
+  }
