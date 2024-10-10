@@ -13,9 +13,9 @@ In order to selectively color the background of sections of your story, you'll n
 >**Note:** the `data-blockid` values are set when a story is published. If a story is edited again, and block are re-arranged or removed, you may need to update the `data-blockid` values in your CSS selectors.
 
 ### CSS customizations
-> Use only if needed. Include a snippet of the business end of the CSS file and direct users where to make modifications.
+**Identify selected blocks** The `data-blockid` values can be found by inspecting the elements of your story. These values can be aggregated into a CSS selector as shown below.
 
-**Identify selected blocks**
+![Sample selective section color](./assets/sample_block_id.jpg "Sample selective section color")
 ```css
 /* Change background color of these 'blocks' */
 [data-blockid='n-zbWCKc'],
