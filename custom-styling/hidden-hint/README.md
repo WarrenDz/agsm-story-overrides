@@ -4,7 +4,7 @@ Creating geographic scavenger hunts and quizzes using ArcGIS StoryMaps can be an
 This sample demonstrates how to use psuedo elements and filters to hide blocks of text within the narrative panel of the sidecar until a reader hovers on them. This can be used to mask hint text and add intrigue.
 
 ## Live sample
-[![Hidden hint sample codepen](./assets/sample_hidden_hint.jpg "Hidden hint sample codepen")](https://codepen.io/Warren-Davison/pen/wvVzwrv)
+[![Hidden hint sample codepen](./assets/sample_hidden_hint.jpg "Hidden hint sample codepen")](https://codepen.io/Warren-Davison/pen/wvVzwrv)*[Click to see the live codepen](https://codepen.io/Warren-Davison/pen/wvVzwrv)*
 
 ## Usage instructions
 Implementing these hidden hints involves:
