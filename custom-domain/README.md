@@ -13,7 +13,7 @@ Implementing a custom domain involves:
 
 
 ### HTML customizations
-
+```html
 <div class="storymaps-root"></div>
 <script>
   id="embed-script"
@@ -21,7 +21,7 @@ Implementing a custom domain involves:
   data-story-id="1ba69ca9c31b4183b1ee486c36364198"
   data-root-node=".storymaps-root"
 </script>
-
+```
 ### CSS customizations
 > Use only if needed. Include a snippet of the business end of the CSS file and direct users where to make modifications.
 
