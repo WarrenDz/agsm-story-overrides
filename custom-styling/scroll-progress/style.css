@@ -1,0 +1,23 @@
+/* Story nav .bar-container */
+.bar-container {
+    position: relative; /* Ensure the container is positioned relative for absolute positioning */
+  }
+  
+  /* Progress bar positioned below the nav .bar-container */
+  .bar-container::after {
+    content: ""; /* Create an empty pseudo-element */
+    display: block; /* Ensure the pseudo-element is rendered */
+    position: absolute;
+    bottom: -10px; /* Position it 10px below the container */
+    left: 0;
+    right: 0;
+    width: var(--bar-fill-width, 0);
+    height: 10px; /* Set the height to 10px */
+    background-color: #a88a9e; /* Adjust color as needed */
+    transition: width 0.1s ease; /* Smooth animation */
+    transition: all 0.3s;
+  }
+  
+  body {
+      margin: 0;
+  }
