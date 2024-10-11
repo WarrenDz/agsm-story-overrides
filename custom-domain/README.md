@@ -29,7 +29,3 @@ Implementing a custom domain involves:
 
 ### Javascript customizations
 > Use only if needed. Include a snippet of the business end of the javascript file and direct users where to make modifications.
-
-```
-// Your code here (comments are allowed)
-```

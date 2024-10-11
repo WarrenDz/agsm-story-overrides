@@ -1,5 +1,5 @@
 # Analytics
-This sample demonstrates how to implement several analytics providers within your site to track metrics associated with website traffic.
+This sample demonstrates how to implement several analytics providers within your site to track metrics associated with website traffic. These include but are not limited to Google Analytics, Adobe Analytics, and Meta Pixel (facebook).
 
 ## Usage instructions
 To implement analytics for your script-embedded stories you'll need:
