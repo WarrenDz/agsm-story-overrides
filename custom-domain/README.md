@@ -6,21 +6,27 @@ Esri offers a developer friendly solution for self hosting stories created in Ar
 [![<sample name>](<path to image> "<sample name>")](<link to codepen>)
 
 ## Usage instructions
->Provide instructions as to how the author can implement this example. Use the snippet sections below to highlight modifications to the example files.
+Implementing a custom domain involves:
+- Create an index.html page or add the following to an existing HTML page
+- add the embed-script id to your HTML page
+- add your story id in the data-story-id=""
+- host your HTML page
+
 
 ### HTML customizations
-> Use only if needed. Include a snippet of the business end of the HTML and direct users where to make modifications.
 
-```
-// Your code here (comments are allowed)
-```
+<div class="storymaps-root"></div>
+<script>
+  id="embed-script"
+  src="https://storymapsqa.arcgis.com/embed/view"
+  data-story-id="1ba69ca9c31b4183b1ee486c36364198"
+  data-root-node=".storymaps-root"
+</script>
 
 ### CSS customizations
 > Use only if needed. Include a snippet of the business end of the CSS file and direct users where to make modifications.
 
-```
-// Your code here (comments are allowed)
-```
+
 
 ### Javascript customizations
 > Use only if needed. Include a snippet of the business end of the javascript file and direct users where to make modifications.
