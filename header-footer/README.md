@@ -1,6 +1,5 @@
 # [Use case]
->Summarize what this sample does and **what problem is solves for the user**. For example, introduce the sample in the context of a user story. One paragraph is probably enough.
-
+Does your organization employ a custom header and footer for its websites? It's a common approach to ensure a uniform web experience and simplify navigation across pages. By self-hosting your story, you can integrate a custom header and footer around your content, creating a seamless online experience for your audience.
 ## Live sample
 >Use only if the sample can be implemented in a codepen.
 [![<sample name>](<path to image> "<sample name>")](<link to codepen>)
