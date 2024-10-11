@@ -48,7 +48,8 @@ Here are some ways you can customize your script-embedded stories.
     - **[Selective section background color](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/section-color)** Selectively re-color the background of sections within your story.
     - **[Image drop shadow](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/img-shadow)** Apply a subtle dropshadow to images within throughout your story.
     -**[Drop caps](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/drop-caps)** Implement some fancy typographic effects for the initial characters of your paragraphs.
-
+    - **[Scroll progress](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/scroll-progress)** Visualize for readers how far along they are in your story.
+    - 
 ## Resources
 - Likely a blog post here...
 - Probably a link to some doc here...
