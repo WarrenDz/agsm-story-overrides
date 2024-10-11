@@ -1,5 +1,5 @@
 # Custom domain
-Esri offers a developer friendly solution for self hosting stories created in ArcGIS StoryMaps. Users cannot download the source code for their stories but instead can incorporate simple Javascript to add their stories to their websites. This will change the url for a story from https://storymaps.arcgis.com/stories/xxxxxxxxxxxxxxxxxxxxx to your organization's domain. This is the recommended solution for incorporating a story into your organization's website. With this solution, authors can still edit their stories using the ArcGIS StoryMaps builder to keep their story up-to-date.
+Esri provides an easy way for developers to host ArcGIS StoryMaps stories on their own domains. While users can't download the story's source code, they can use a simple script to change the URL from https://storymaps.arcgis.com/stories/xxxxxxxxxxxxxxxxxxxxx to their organization's domain. This method allows authors to keep editing and updating their stories in the ArcGIS StoryMaps builder.
 
 ## Live sample
 https://codepen.io/rdonihue/pen/oNKBboj
