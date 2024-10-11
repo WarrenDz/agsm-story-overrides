@@ -1,5 +1,5 @@
 # Custom domain
->Summarize what this sample does and **what problem is solves for the user**. For example, introduce the sample in the context of a user story. One paragraph is probably enough.
+Esri offers a developer friendly solution for self hosting stories created in ArcGIS StoryMaps. Users cannot download the source code for their stories but instead can incorporate simple Javascript to add their stories to their websites. This will change the url for a story from https://storymaps.arcgis.com/stories/xxxxxxxxxxxxxxxxxxxxx to your organization's domain. This is the recommended solution for incorporating a story into your organization's website. With this solution, authors can still edit their stories using the ArcGIS StoryMaps builder to keep their story up-to-date.
 
 ## Live sample
 >Use only if the sample can be implemented in a codepen.
