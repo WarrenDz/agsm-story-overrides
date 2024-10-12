@@ -2,7 +2,7 @@
 This sample demonstrates how to add a progress bar beneath a storys navigation bar in order to visualize a readers progress through the story.
 
 ## Live sample
-[![Sample scroll progress](./assets/sample_scroll_progress.jpg "Sample scroll progress")](https://codepen.io/Warren-Davison/details/ExqZZQL)
+[![Sample scroll progress](./assets/sample_scroll_progress.jpg "Sample scroll progress")](https://codepen.io/Warren-Davison/details/ExqZZQL)*[Click to see the live codepen](https://codepen.io/Warren-Davison/details/ExqZZQL)*
 
 ## Usage instructions
 Implementing a scroll progress bar involves:
@@ -47,8 +47,6 @@ Implementing a scroll progress bar involves:
 ```
 
 ### Javascript customizations
-> Use only if needed. Include a snippet of the business end of the javascript file and direct users where to make modifications.
-
 ```js
 
 window.onload = function() {

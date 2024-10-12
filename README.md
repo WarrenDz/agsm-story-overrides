@@ -42,12 +42,19 @@ Here are some ways you can customize your script-embedded stories.
 
 - **[Custom styling](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling)** A collection of creative samples that apply custom styling to embedded stories including:
     - **[Line height](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/line-height)** Override the line height of text within your story to suit your font.
+
     - **[Custom covers](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/custom-cover)** Customize the appearance of your story cover.
+
     - **[Hover animations](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/hover-animation)** Configure custom animations on elements within your story when a user hovers.
+
     - **[Hidden hints](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/hidden-hints)** Add intrigue with hint text to scavenger hint or quiz-style stories using pseudo elements and hover transitions.
+
     - **[Selective section background color](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/section-color)** Selectively re-color the background of sections within your story.
+
     - **[Image drop shadow](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/img-shadow)** Apply a subtle dropshadow to images within throughout your story.
+
     - **[Drop caps](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/drop-caps)** Implement some fancy typographic effects for the initial characters of your paragraphs.
+    
     - **[Scroll progress](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/scroll-progress)** Visualize for readers how far along they are in your story.
 
 ## Resources

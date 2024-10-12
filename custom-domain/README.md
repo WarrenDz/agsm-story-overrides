@@ -22,10 +22,3 @@ Implementing a custom domain involves:
   data-root-node=".storymaps-root"
 </script>
 ```
-### CSS customizations
-> Use only if needed. Include a snippet of the business end of the CSS file and direct users where to make modifications.
-
-
-
-### Javascript customizations
-> Use only if needed. Include a snippet of the business end of the javascript file and direct users where to make modifications.

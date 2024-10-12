@@ -3,7 +3,9 @@
 
 ## Live sample
 >Use only if the sample can be implemented in a codepen.
+
 [![<sample name>](<path to image> "<sample name>")](<link to codepen>)
+*[Click to see the live codepen](<codepen url>)*
 
 ## Usage instructions
 >Provide instructions as to how the author can implement this example. Use the snippet sections below to highlight modifications to the example files.

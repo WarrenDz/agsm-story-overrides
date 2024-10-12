@@ -1,23 +1,9 @@
-/* 
-div.text-viewer p:first-of-type:not(.condensed-container p):not(blockquote p)::first-letter {
-    margin: 0.6rem .6rem 0 0;
-    float: left;
-    color: #313130;
-    font-size: calc(2 * 1.4em);
-    font-weight: 800;
-    line-height: .9;
-    border-bottom: 2px solid #AA5939
-} */
-/* first p in div, first p in immersive */
-
-
-/* div.immersive-narrative-panel  */
+/* Drop caps selector  */
 div.layout-wrapper:first-of-type div.text-viewer p:first-of-type::first-letter {
     margin: 0.6rem .6rem 0 0;
     float: left;
     color: #313130;
     font-size: calc(2 * 1.4em);
-    /* font-weight: 800; */
     line-height: .9;
     border-bottom: 2px solid #AA5939
 }
