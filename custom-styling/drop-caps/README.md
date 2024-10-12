@@ -1,5 +1,7 @@
 # Drop caps
-This example demonstrates how to create
+A drop cap is a large, uppercase letter used for decoration in the opening of a piece (or section) of text, most often employed in editorial scenarios ([source: Google Fonts](https://fonts.google.com/knowledge/glossary/drop_cap))
+
+This sample demonstrates how to implement drop caps on blocks of text within your story.
 
 ## Live sample
 [![Sample drop caps](./assets/sample_drop_caps.jpg "Sample drop caps")](https://codepen.io/Warren-Davison/pen/PoMbVjy)*[Click to see the live codepen](https://codepen.io/Warren-Davison/pen/PoMbVjy)*
