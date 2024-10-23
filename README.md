@@ -57,6 +57,8 @@ Here are some ways you can customize your script-embedded stories.
     
     - **[Scroll progress](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/scroll-progress)** Visualize for readers how far along they are in your story.
 
+    - **[Custom media action](https://github.com/WarrenDz/agsm-story-overrides/blob/master/custom-styling/custom-media-action)** Style the media actions within your story to suit your needs.
+
 ## Resources
 - Likely a blog post here...
 - Probably a link to some doc here...
